@@ -1,7 +1,57 @@
-#menu
+#navbar 
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
 	background: white;
+	overflow: hidden;
+	border-bottom: 1px solid  #bbb;
 }
+
+#navbar li {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+  }
+
+hr.dashed {
+	border-top: 3px dashed #bbb;
+}
+
+section.section {
+	padding-top:40px;
+	padding-bottom:100px;
+}
+
+div.title {
+	text-align: center;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color: black; 
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
