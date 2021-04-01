@@ -32,9 +32,8 @@ hr.dashed {
 
 section.section {
 	padding-top:50px;
-	padding-bottom:200px;
-	/* margin-top: 50px; */
-
+	padding-bottom:50px;
+	display: flow-root;
 }
 
 div.title {
@@ -52,8 +51,7 @@ div.gallery {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 180px;
-
+	width: 20%;
   }
   
   div.gallery:hover {
@@ -92,6 +90,8 @@ div.centered {
 
   body {
   background-color: rgb(210, 241, 255);
+  margin:0px;
+  padding:0px;
 }
 
 .full-width.justify-content-center {
@@ -122,6 +122,11 @@ table.answers{
 	padding: 10px;
 	font-size: 15px;
 
+}
+
+section.form{
+	align-items: center;
+	align-self: center;
 }
 textarea{
 	box-sizing: border-box;
