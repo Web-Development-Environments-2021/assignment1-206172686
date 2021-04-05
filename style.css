@@ -7,6 +7,7 @@
 	overflow: hidden;
 	border-bottom: 1px solid  #bbb;
 	background-color: rgb(210, 241, 255);
+	z-index: 1;
 }
 
 #navbar li {
